@@ -1,0 +1,246 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+
+.header{
+    margin-bottom: 40px;
+}
+
+/* NAVBAR */
+
+.menuSite{
+	background-color: #212121;
+}
+
+#navbar .brand-logo{
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #FF5252;
+}
+
+#navbar a {
+    color: #009688;
+	font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+
+#nav-mobile{
+    height: 514px;
+    width: 200px;
+    background-color: #212121;
+}
+
+
+/* HEADER */
+
+.parallax {
+  min-height: 450px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax .section {
+    width: 100%;
+  }
+
+  @media only screen and (max-width : 992px) {
+  .parallax .section {
+    position: absolute;
+    top: 40%;
+  }
+}
+
+
+#index-banner h1, .btn-large{
+    font-family: 'Varela Round', sans-serif;
+}
+
+#index-banner span{
+    color: #ef5350;
+}
+
+#index-banner h5{
+    font-family: 'Heebo', sans-serif;
+    color: #fff;
+}
+
+ /* ABOUT */
+.about{
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 50px 0 40px;
+}
+
+#about span{
+    color: #FF5252;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#about h4{
+    font-family: 'Assistant', sans-serif;
+    padding: 10px;
+    font-weight: 700;
+}
+
+#about p{
+    padding: 25px;
+    font-size: 18px;
+    font-family: 'Assistant', sans-serif;
+}
+
+.services{
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 10px 0 60px;
+}
+
+.services h3{
+    color: #ef5350;
+    letter-spacing: 3px;
+    font-family: 'Secular One', sans-serif;
+    margin-bottom: 20px;
+}
+
+.services i{
+color: #424242; 
+}
+
+.services h4{
+    color: #ef5350;
+    letter-spacing: 3px;
+    font-family: 'Secular', sans-serif;
+}
+
+.services h3{
+    font-family: 'Secular', sans-serif;
+}
+
+.services p{
+    color: #212121;
+    font-family: 'Heebo', sans-serif;
+    padding: 10px;
+}
+
+/* COURSES */
+.courses{
+    background-color: #212121;
+    height: 100%;
+    padding: 80px 0 160px;
+}
+.cardHabil,.cardPort{
+    margin-top:8em;
+}
+
+.courses h4{
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    color: #FF5252;
+
+}
+
+.courses h5{
+    font-family: 'Assistant', sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Testimonials */
+.testimonials {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 40px 0 80px;  
+}
+
+.testimonials img {
+    height: 150px;
+    width: 150px;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+
+.testimonials h3{
+    font-family: 'Varela Round', sans-serif;
+    color: #FF5252;
+    margin-bottom: 40px;
+}
+
+.testimonials h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #212121;
+}
+
+.testimonials b{
+    font-family: 'Varela Round', sans-serif;
+    color: #FF5252; 
+}
+
+.testimonials p{
+    font-family: 'Heebo', sans-serif;
+}
+
+/* Trusted */
+.trusted {
+    padding: 50px 0 80px;
+    text-align: center;
+    background-color: #212121;
+    height: 100%;
+}
+
+.trusted h4{
+    font-family: 'Varela Round', sans-serif;
+    color: #FF5252;
+
+}
+
+.trusted img {
+    width: 200px;
+    height: 80px;
+    margin: 80px 0;
+
+}
+
+/* CONTACT */
+.contact {
+    padding: 50px 0 80px;
+     background-color: #EEEEEE;
+    
+}
+
+.contact h3{
+    text-align: center;
+    color: #424242;
+    font-family: 'Secular', sans-serif;
+    margin-bottom: 30px;
+}
+
+.contact h4{
+    text-align: center;
+    color: #ef5350;
+    font-family: 'Secular', sans-serif;
+}
+
+/*FOOTER*/
+
+.page-footer{
+    background-color: #212121;
+    text-align: center;
+}
+
+.page-footer i{
+    color:#EF5350;
+    font-size: 30px;
+}
+
+
