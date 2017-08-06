@@ -234,13 +234,22 @@ color: #424242;
 /*FOOTER*/
 
 .page-footer{
+    padding: 25px;
     background-color: #212121;
     text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Catamaran', sans-serif;
 }
 
 .page-footer i{
     color:#EF5350;
-    font-size: 30px;
+    font-size: 20px;
+}
+
+
+.footer-copyright span{
+    color: #00BCD4;
+    
 }
 
 
